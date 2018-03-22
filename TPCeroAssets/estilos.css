@@ -1,0 +1,67 @@
+body{
+  background-color: salmon;
+}
+
+/*Banner*/
+.header{
+  padding: 1em;
+}
+
+.header img{
+  width: 100%;
+  margin: auto;
+}
+
+/*Formulario*/
+.formulario{
+  text-align: center;
+  font-style: oblique;
+  font-weight: bold;
+  color: maroon;
+}
+input[type=email]{
+  width: 16em;
+  height: 2em;
+  background-color: pink;
+  opacity: 0.8;
+  border: 0.25em solid violet;
+  border-radius: 0.5em;
+}
+input[type=submit]{
+  background-color: pink;
+  color: brown;
+  width: 7em;
+  height: 2em;
+  border: 0.25em outset red;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+input[type=submit]:hover{
+  background-color: hotpink;
+  color: white;
+  border-color: maroon;
+}
+input[type=submit]:active{
+  transform: translateY(2px);
+}
+
+/*Iconos*/
+.iconos{
+  text-align: right;
+  margin: 1em;
+}
+.iconos a img{
+  padding-left: 0.5em;
+}
+.iconos a img:hover{
+  opacity: 0.75;
+}
+
+/*Footer*/
+p{
+  text-align: center;
+  margin-top: 10em;
+  margin-bottom: 3em;
+  font-size: 0.75em;
+  color: maroon;
+}
